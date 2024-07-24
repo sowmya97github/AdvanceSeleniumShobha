@@ -22,7 +22,7 @@ public class DataBaseUtility {
 	
 	public void dataBaseClose() throws Throwable
 	{
-		Connection con=	DriverManager.getConnection("jdbc:mysql://localhost:3306/qspiders", "root", "root");
+		Connection con=	DriverManager.getConnection("jdbc:mysql://localhost:3306/qspiders", "root", "sowmya");
 	     con.close();
 	}
 }
