@@ -32,7 +32,7 @@ import objectRepository.VtigerLoginPage;
 public class CreateOrganizationTest extends BaseClass{
 
 //	@Test//(groups = {"smokeTest","regressionTest"})
-	//@Test(retryAnalyzer = Generic_Utilities.RetryImplementation.class)
+	@Test(retryAnalyzer = Generic_Utilities.RetryImplementation.class)
 	public void createOrganizationTest() throws Throwable {
   HomePage home = new HomePage(driver);
   home.clickOrganizationLink();
