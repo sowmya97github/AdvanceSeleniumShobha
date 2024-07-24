@@ -32,7 +32,7 @@ public class CreateCampaignTest extends BaseClass {
 
 
 
-	//@Test(groups = "smokeTest")
+	@Test(groups = "smokeTest")
 	public void createCampaignTest() throws Throwable {
 		HomePage home = new HomePage(driver);
         home.clickMoreLink();
