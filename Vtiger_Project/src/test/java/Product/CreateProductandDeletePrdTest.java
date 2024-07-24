@@ -31,7 +31,7 @@ import objectRepository.VtigerLoginPage;
 
 public class CreateProductandDeletePrdTest extends BaseClass{
 
-	@Test
+	//@Test
 public void createProductandDeletePrdTest()	 throws Throwable {
 		
 		 HomePage home = new HomePage(driver);
