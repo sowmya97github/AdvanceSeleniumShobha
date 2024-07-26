@@ -36,7 +36,7 @@ public class CreateOrganizationTest extends BaseClass{
 	public void createOrganizationTest() throws Throwable {
   HomePage home = new HomePage(driver);
   home.clickOrganizationLink();
-		//test
+		//testing
  
  CreateOrganizationPage orgPage = new CreateOrganizationPage(driver);
   orgPage.clickOrgPlusSign();
